@@ -24,23 +24,23 @@ echo 'set autoindent' >> /etc/vim/vimrc
 echo 'set enc=utf-8' >> /etc/vim/vimrc
 
 echo 'call vundle#begin()' >> /etc/vim/vimrc
-echo "Plugin 'gmarik/Vindle.vim'" >> /etc/vim/vimrc
+echo "Plugin 'gmarik/Vundle.vim'" >> /etc/vim/vimrc
 echo "Plugin 'scrooloose/nerdtree'" >> /etc/vim/vimrc
 echo "Plugin 'klen/python-mode'" >> /etc/vim/vimrc
 echo "Plugin 'davidhalter/jedi-vim'" >> /etc/vim/vimrc
 echo "Plugin 'mitsuhiko/vim-jinja'" >> /etc/vim/vimrc
 echo 'call vundle#end()' >> /etc/vim/vimrc
 
-map <F3>:NerdTreeToggle<CR>
+echo 'map <F3>:NerdTreeToggle<CR>' >> /etc/vim/vimrc
 
 echo 'let python_highlight_all=4' >> /etc/vim/vimrc
-echo 'g:python_rope=0' >> /etc/vim/vimrc
-echo 'g:python_rope_completion=0' >> /etc/vim/vimrc
-echo 'g:python_rope_complete_on_dot=0' >> /etc/vim/vimrc
-echo 'g:jedi#popup_select_first=0' >> /etc/vim/vimrc
+echo 'let g:python_rope=0' >> /etc/vim/vimrc
+echo 'let g:python_rope_completion=0' >> /etc/vim/vimrc
+echo 'let g:python_rope_complete_on_dot=0' >> /etc/vim/vimrc
+echo 'let g:jedi#popup_select_first=0' >> /etc/vim/vimrc
 
 echo 'filetype on' >> /etc/vim/vimrc
 echo 'filetype plugin on' >> /etc/vim/vimrc
 echo 'filetype plugin indent on' >> /etc/vim/vimrc
 
-inoremap <C-space> <C-x><C-o>
+echo 'inoremap <C-space> <C-x><C-o>' >> /etc/vim/vimrc
