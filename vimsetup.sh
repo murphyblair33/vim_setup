@@ -4,7 +4,7 @@ apt-get install -y vim git
 
 mkdir -p ~/.vim/bundle/Vundle
 
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo 'syntax enable' > /etc/vim/vimrc
 
