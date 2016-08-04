@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y vim git
+apt-get install -y vim vim-python-jedi git
 
 mkdir -p ~/.vim/bundle/Vundle
 
