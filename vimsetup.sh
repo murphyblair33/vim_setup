@@ -44,3 +44,5 @@ echo 'filetype plugin on' >> /etc/vim/vimrc
 echo 'filetype plugin indent on' >> /etc/vim/vimrc
 
 echo 'inoremap <C-space> <C-x><C-o>' >> /etc/vim/vimrc
+
+vim +PluginInstall +qall
