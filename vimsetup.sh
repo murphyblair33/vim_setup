@@ -31,7 +31,7 @@ echo "Plugin 'davidhalter/jedi-vim'" >> /etc/vim/vimrc
 echo "Plugin 'mitsuhiko/vim-jinja'" >> /etc/vim/vimrc
 echo 'call vundle#end()' >> /etc/vim/vimrc
 
-echo 'map <F3>:NerdTreeToggle<CR>' >> /etc/vim/vimrc
+echo 'map <F3> :NerdTreeToggle<CR>' >> /etc/vim/vimrc
 
 echo 'let python_highlight_all=4' >> /etc/vim/vimrc
 echo 'let g:python_rope=0' >> /etc/vim/vimrc
